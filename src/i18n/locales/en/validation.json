@@ -1,0 +1,22 @@
+{
+  "required": "This field is required",
+  "email": {
+    "required": "Email is required",
+    "invalid": "Enter a valid email"
+  },
+  "password": {
+    "required": "Password is required",
+    "current_required": "Current password is required",
+    "min_one": "Password must be at least {{count, number}} character",
+    "min_other": "Password must be at least {{count, number}} characters",
+    "mismatch": "Passwords do not match",
+    "must_be_different": "New password must be different from the current one"
+  },
+  "name": {
+    "required": "Full name is required"
+  },
+  "confirmPassword": {
+    "required": "Please confirm your password",
+    "confirm_new": "Please confirm your new password"
+  }
+}

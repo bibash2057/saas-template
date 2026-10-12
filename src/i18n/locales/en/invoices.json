@@ -1,0 +1,25 @@
+{
+  "title": "Invoices",
+  "description": "Manage, track, and send invoices to your customers.",
+  "create": "Create Invoice",
+  "searchPlaceholder": "Search",
+  "filters": {
+    "status": "Status",
+    "allStatuses": "All statuses"
+  },
+  "columns": {
+    "customer": "Customer",
+    "invoice": "Invoice",
+    "email": "Email",
+    "amount": "Amount",
+    "status": "Status",
+    "due": "Due",
+    "actions": "Actions"
+  },
+  "status": {
+    "Paid": "Paid",
+    "Pending": "Pending",
+    "Overdue": "Overdue",
+    "Draft": "Draft"
+  }
+}

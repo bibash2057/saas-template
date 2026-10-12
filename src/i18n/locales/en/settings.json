@@ -1,0 +1,126 @@
+{
+  "layout": {
+    "title": "Settings",
+    "back": "Back"
+  },
+  "nav": {
+    "general": "General",
+    "myAccount": "My Account",
+    "businessProfile": "Business Profile",
+    "subscription": "Subscription"
+  },
+
+  "general": {
+    "title": "General Settings",
+    "appearance": {
+      "title": "Appearance",
+      "description": "Choose how the app looks. System follows your device setting."
+    },
+    "language": {
+      "title": "Language",
+      "description": "Choose the language used across the app.",
+      "label": "Display language",
+      "calendarNote": "Switching language also updates the BS calendar language. You can change that separately under Calendar & Date."
+    },
+    "currency": {
+      "title": "Currency",
+      "description": "Choose the currency and where the symbol appears.",
+      "currency": "Currency",
+      "position": "Currency Position",
+      "numberFormat": "Number Format",
+      "positions": {
+        "start": "Start ({{symbol}} {{amount}})",
+        "end": "End ({{amount}} {{symbol}})"
+      },
+      "numberFormats": {
+        "lakh": "Lakh (10,00,000)",
+        "million": "Million (1,000,000)"
+      }
+    },
+    "calendar": {
+      "title": "Calendar & Date",
+      "description": "Applies to every date shown in the app. You can still switch temporarily inside the calendar popup.",
+      "calendar": "Calendar",
+      "calendars": {
+        "BS": "Bikram Sambat (BS)",
+        "AD": "Gregorian (AD)"
+      },
+      "dateFormat": "Date Format",
+      "bsLanguage": "BS Language (months & digits)",
+      "preview": "Preview:"
+    }
+  },
+  "myAccount": {
+    "title": "My account",
+    "description": "View and update your personal information and password.",
+    "profile": {
+      "title": "Profile",
+      "description": "Your basic information. Edit any field and save.",
+      "uploadPhoto": "Upload profile photo",
+      "upload": "Upload",
+      "remove": "Remove",
+      "imageHint": "Allowed JPG, PNG or GIF. Max size 2MB.",
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Full Name",
+      "email": "Email",
+      "emailPlaceholder": "youremail@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+977 98XXXXXXXX",
+      "address": "Address",
+      "addressPlaceholder": "City, Country"
+    },
+    "changePassword": {
+      "title": "Change password",
+      "description": "Use at least 8 characters. You'll need your current password.",
+      "currentPassword": "Current password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPassword": "New password",
+      "newPasswordPlaceholder": "At least 8 characters",
+      "confirmPassword": "Confirm new password",
+      "confirmPasswordPlaceholder": "Re-enter new password",
+      "clear": "Clear",
+      "updatePassword": "Update password"
+    }
+  },
+  "businessProfile": {
+    "title": "Business Profile",
+    "description": "Manage your business information, location details, and financial settings.",
+    "sections": {
+      "basicInfo": "Basic Information",
+      "addressInfo": "Address Information",
+      "financialInfo": "Financial Information"
+    },
+    "fields": {
+      "uploadLogo": "Upload business logo",
+      "upload": "Upload",
+      "remove": "Remove",
+      "imageHint": "Allowed JPG, PNG or GIF. Max size 2MB.",
+      "businessName": "Business Name",
+      "businessNamePlaceholder": "Your Business Name",
+      "businessPhone": "Business Contact Number",
+      "businessPhonePlaceholder": "+977 98XXXXXXXX",
+      "businessEmail": "Business Email",
+      "businessEmailPlaceholder": "contact@business.com",
+      "businessCategory": "Business Category",
+      "selectCategory": "Select Category",
+      "businessType": "Business Type",
+      "selectType": "Select Business Type",
+      "registrationNumber": "Registration Number",
+      "registrationNumberPlaceholder": "REG-XXXXXX",
+      "province": "Province",
+      "selectProvince": "Select Province",
+      "district": "District",
+      "selectDistrict": "Select District",
+      "municipality": "Municipality",
+      "selectMunicipality": "Select Municipality",
+      "streetAddress": "Street Address",
+      "streetAddressPlaceholder": "Street name, landmark...",
+      "bankAccount": "Bank Account",
+      "bankAccountPlaceholder": "Bank Name & Account Number"
+    }
+  },
+  "button": {
+    "reset": "Reset",
+    "saveChanges": "Save changes"
+  }
+}

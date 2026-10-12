@@ -1,0 +1,7 @@
+{
+  "pagination": {
+    "summary_one": "{{from, number}}–{{to, number}} of {{count, number}} row",
+    "summary_other": "{{from, number}}–{{to, number}} of {{count, number}} rows",
+    "rowsPerPage": "Rows per page"
+  }
+}

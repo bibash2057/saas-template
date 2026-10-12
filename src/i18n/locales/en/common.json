@@ -1,0 +1,35 @@
+{
+  "appName": "ERP CLTECH",
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "learnMore": "Learn more",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
+  },
+  "language": {
+    "label": "Language",
+    "switch": "Change language"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again."
+  },
+  "a11y": {
+    "toggleSection": "Toggle {{name}}"
+  }
+}

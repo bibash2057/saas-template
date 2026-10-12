@@ -1,0 +1,7 @@
+{
+  "pagination": {
+    "summary_one": "{{count, number}} मध्ये {{from, number}}–{{to, number}} पङ्क्ति",
+    "summary_other": "{{count, number}} मध्ये {{from, number}}–{{to, number}} पङ्क्ति",
+    "rowsPerPage": "प्रति पृष्ठ पङ्क्ति"
+  }
+}

@@ -1,0 +1,32 @@
+import {
+  columnFilteringFeature,
+  columnOrderingFeature,
+  columnPinningFeature,
+  columnResizingFeature,
+  columnSizingFeature,
+  columnVisibilityFeature,
+  createSortedRowModel,
+  globalFilteringFeature,
+  rowPaginationFeature,
+  rowPinningFeature,
+  rowSelectionFeature,
+  rowSortingFeature,
+  sortFns,
+  tableFeatures,
+} from "@tanstack/react-table";
+
+export const features = tableFeatures({
+  columnFilteringFeature,
+  globalFilteringFeature,
+  rowPaginationFeature,
+  rowSortingFeature,
+  rowSelectionFeature,
+  columnSizingFeature,
+  columnResizingFeature,
+  columnPinningFeature,
+  columnOrderingFeature,
+  columnVisibilityFeature,
+  rowPinningFeature,
+  sortedRowModel: createSortedRowModel(),
+  sortFns,
+});

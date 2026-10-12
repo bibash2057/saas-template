@@ -1,0 +1,123 @@
+{
+  "layout": {
+    "title": "सेटिङ",
+    "back": "पछाडि"
+  },
+  "nav": {
+    "general": "सामान्य",
+    "myAccount": "मेरो खाता",
+    "businessProfile": "व्यवसाय प्रोफाइल",
+    "subscription": "सदस्यता"
+  },
+  "general": {
+    "title": "सामान्य सेटिङ",
+    "appearance": {
+      "title": "देखावट",
+      "description": "एपको स्वरूप छनोट गर्नुहोस्। सिस्टमले तपाईंको उपकरणको सेटिङ पछ्याउँछ।"
+    },
+    "language": {
+      "title": "भाषा",
+      "description": "एपभरि प्रयोग हुने भाषा छनोट गर्नुहोस्।",
+      "label": "प्रदर्शन भाषा",
+      "calendarNote": "भाषा बदल्दा बि.सं. पात्रोको भाषा पनि बदलिन्छ। यसलाई ‘पात्रो र मिति’ मा छुट्टै परिवर्तन गर्न सकिन्छ।"
+    },
+    "currency": {
+      "title": "मुद्रा",
+      "description": "मुद्रा र चिन्ह देखिने स्थान छनोट गर्नुहोस्।",
+      "currency": "मुद्रा",
+      "position": "मुद्रा चिन्हको स्थान",
+      "numberFormat": "संख्या ढाँचा",
+      "positions": {
+        "start": "सुरुमा ({{symbol}} {{amount}})",
+        "end": "अन्त्यमा ({{amount}} {{symbol}})"
+      },
+      "numberFormats": {
+        "lakh": "लाख (१०,००,०००)",
+        "million": "मिलियन (१,०००,०००)"
+      }
+    },
+    "calendar": {
+      "title": "पात्रो र मिति",
+      "description": "एपमा देखिने सबै मितिमा लागू हुन्छ। पात्रोको पपअप भित्र तपाईं अस्थायी रूपमा परिवर्तन गर्न सक्नुहुन्छ।",
+      "calendar": "पात्रो",
+      "calendars": {
+        "BS": "विक्रम सम्वत् (बि.सं.)",
+        "AD": "ग्रेगोरियन (ई.सं.)"
+      },
+      "dateFormat": "मिति ढाँचा",
+      "bsLanguage": "बि.सं. भाषा (महिना र अंक)",
+      "preview": "पूर्वावलोकन:"
+    }
+  },
+  "myAccount": {
+    "title": "मेरो खाता",
+    "description": "आफ्नो व्यक्तिगत जानकारी र पासवर्ड हेर्नुहोस् र अद्यावधिक गर्नुहोस्।",
+    "profile": {
+      "title": "प्रोफाइल",
+      "description": "तपाईंको आधारभूत जानकारी। कुनै पनि विवरण सम्पादन गरी सेभ गर्नुहोस्।",
+      "uploadPhoto": "प्रोफाइल फोटो अपलोड गर्नुहोस्",
+      "upload": "अपलोड",
+      "remove": "हटाउनुहोस्",
+      "imageHint": "JPG, PNG वा GIF मात्र प्रयोग गर्न सकिनेछ। अधिकतम साइज २ MB।",
+      "fullName": "पुरा नाम",
+      "fullNamePlaceholder": "पुरा नाम",
+      "email": "इमेल",
+      "emailPlaceholder": "youremail@example.com",
+      "phone": "फोन नम्बर",
+      "phonePlaceholder": "+९७७ ९८XXXXXXXX",
+      "address": "ठेगाना",
+      "addressPlaceholder": "शहर, देश",
+      "reset": "रिसेट",
+      "saveChanges": "परिवर्तनहरू सेभ गर्नुहोस्"
+    },
+    "changePassword": {
+      "title": "पासवर्ड परिवर्तन गर्नुहोस्",
+      "description": "कमसेकम ८ अक्षर प्रयोग गर्नुहोस्। तपाईंलाई हालको पासवर्ड चाहिन्छ।",
+      "currentPassword": "हालको पासवर्ड",
+      "currentPasswordPlaceholder": "हालको पासवर्ड राख्नुहोस्",
+      "newPassword": "नयाँ पासवर्ड",
+      "newPasswordPlaceholder": "कमसेकम ८ अक्षर",
+      "confirmPassword": "नयाँ पासवर्ड पुष्टि गर्नुहोस्",
+      "confirmPasswordPlaceholder": "नयाँ पासवर्ड पुनः राख्नुहोस्",
+      "clear": "क्लियर",
+      "updatePassword": "पासवर्ड अद्यावधिक गर्नुहोस्"
+    }
+  },
+  "businessProfile": {
+    "title": "व्यापारिक प्रोफाइल",
+    "description": "तपाईंको व्यवसायको जानकारी, स्थान विवरण र वित्तीय सेटिङहरू प्रबन्ध गर्नुहोस्।",
+    "sections": {
+      "basicInfo": "आधारभूत जानकारी",
+      "addressInfo": "ठेगाना जानकारी",
+      "financialInfo": "वित्तीय जानकारी"
+    },
+    "fields": {
+      "uploadLogo": "व्यवसायको लोगो अपलोड गर्नुहोस्",
+      "upload": "अपलोड",
+      "remove": "हटाउनुहोस्",
+      "imageHint": "JPG, PNG वा GIF मात्र प्रयोग गर्न सकिनेछ। अधिकतम साइज २ MB।",
+      "businessName": "व्यवसायको नाम",
+      "businessNamePlaceholder": "तपाईंको व्यवसायको नाम",
+      "businessPhone": "व्यापारिक सम्पर्क नम्बर",
+      "businessPhonePlaceholder": "+९७७ ९८XXXXXXXX",
+      "businessEmail": "व्यापारिक इमेल",
+      "businessEmailPlaceholder": "contact@business.com",
+      "businessCategory": "व्यापार वर्ग",
+      "selectCategory": "वर्ग छान्नुहोस्",
+      "businessType": "व्यापार प्रकार",
+      "selectType": "व्यापार प्रकार छान्नुहोस्",
+      "registrationNumber": "दर्ता नम्बर",
+      "registrationNumberPlaceholder": "REG-XXXXXX",
+      "province": "प्रदेश",
+      "selectProvince": "प्रदेश छान्नुहोस्",
+      "district": "जिल्ला",
+      "selectDistrict": "जिल्ला छान्नुहोस्",
+      "municipality": "नगरपालिका/गाउँपालिका",
+      "selectMunicipality": "नगरपालिका/गाउँपालिका छान्नुहोस्",
+      "streetAddress": "टोली/सडक ठेगाना",
+      "streetAddressPlaceholder": "सडकको नाम, मार्ग संकेत...",
+      "bankAccount": "बैंक खाता",
+      "bankAccountPlaceholder": "बैंकको नाम र खाता नम्बर"
+    }
+  }
+}
